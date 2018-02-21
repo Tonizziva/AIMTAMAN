@@ -1,0 +1,2 @@
+Vector2 p = new Vector2 (0,0);
+Debug.Log (p);
