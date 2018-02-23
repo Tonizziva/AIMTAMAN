@@ -16,7 +16,7 @@ public class LevelEditor : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		for (int i=0;i<50;i++) {
+		for (int i=0;i<60;i++) {
 			int r = Random.Range (1, 7);
 			GameObject obj = GameObject.Find ("Assets/Resources/Prefabs/este0");
 			//Debug.Log (Resources.Load("Prefabs/Este"+r));

@@ -18,3 +18,14 @@ for (int i=0;i<50;i++) {
 
 	esterata2 = (Instantiate(Resources.Load("Prefabs/Este"+r),	new Vector2(0.7f, i*4), Quaternion.identity) as GameObject).transform.parent = esteet.transform;
 }
+
+
+//Tyhjä gameobject > box collider = is Trigger. maalialue jos objecti joka on tagatty nimellä dot osuu niin koodi ajetaan.
+void OnTriggerEnter2D (Collider2D col) {
+	if(col.gameObject.tag == "dot")
+	{
+		Debug.Log("Maali");
+		Paina1.start = false;
+		Paina1.pause = true;
+	}
+}
