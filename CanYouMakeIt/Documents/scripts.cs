@@ -15,7 +15,6 @@ for (int i=0;i<3;i++) {
 for (int i=0;i<50;i++) {
 	int r = Random.Range (1, 7);
 	GameObject obj = GameObject.Find ("Assets/Resources/Prefabs/este0");
-	//Debug.Log (Resources.Load("Prefabs/Este"+r));
 
 	esterata2 = (Instantiate(Resources.Load("Prefabs/Este"+r),	new Vector2(0.7f, i*4), Quaternion.identity) as GameObject).transform.parent = esteet.transform;
 }
