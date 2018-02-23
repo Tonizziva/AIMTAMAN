@@ -18,9 +18,9 @@ public class Osuma : MonoBehaviour {
 	void OnCollisionEnter2D (Collision2D col) {
         if(col.gameObject.tag == "dot")
         {
-            Debug.Log("Osui");
-            Paina.start = false;
-			Paina.pause = true;
+            Debug.Log("Osui2");
+            Paina1.start = false;
+			Paina1.pause = true;
         }
     }
 }

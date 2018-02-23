@@ -16,7 +16,7 @@ public class MoveScript : MonoBehaviour {
 	void Update () {
         if (liikuAina == false)
         {
-            if (Paina.pause == false)
+            if (Paina1.pause == false)
             {
                 this.gameObject.GetComponent<Rigidbody2D>().velocity = move;
             }

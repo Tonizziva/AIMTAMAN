@@ -52,15 +52,15 @@ public class Paina1 : MonoBehaviour {
 		if (grabbedObject != null) {
 			Vector3 mouseWorldPos3D = Camera.main.ScreenToWorldPoint (Input.mousePosition);
 			Vector2 mousePos2D = new Vector2 (mouseWorldPos3D.x, mouseWorldPos3D.y);
+
 			k = k + 0.005f;
 			liikkuminen = new Vector3 (0,-k,0);
+
 			if (pause != true) {
 				for (int i = 0; i < esteet.transform.childCount; i++) {
 					for(int o = 0; o <esteet.transform.GetChild(i).childCount;o++) {
-						//Debug.Log (esteet.transform.GetChild (i).GetChild (o).GetComponent<Rigidbody2D> ().velocity);
 						esteet.transform.GetChild (i).GetChild (o).GetComponent<Rigidbody2D> ().velocity = liikkuminen;
 					}
-					//esteet.transform.GetChild (i).GetComponent<Rigidbody2D> ().velocity = liikkuminen;
 				}
 			} else {
 				pauseGame();

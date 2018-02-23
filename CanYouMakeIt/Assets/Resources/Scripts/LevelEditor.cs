@@ -21,7 +21,7 @@ public class LevelEditor : MonoBehaviour {
 			GameObject obj = GameObject.Find ("Assets/Resources/Prefabs/este0");
 			//Debug.Log (Resources.Load("Prefabs/Este"+r));
 
-			esterata2 = (Instantiate(Resources.Load("Prefabs/Este"+r),	new Vector2(0.7f, i*4), Quaternion.identity) as GameObject).transform.parent = esteet.transform;
+			esterata2 = (Instantiate(Resources.Load("Prefabs/Este"+r),	new Vector2(0.7f, (i+1)*4), Quaternion.identity) as GameObject).transform.parent = esteet.transform;
 		}
 	}
 	

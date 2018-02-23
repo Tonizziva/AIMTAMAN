@@ -14,7 +14,7 @@ public class Counter : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (Paina.start == true)
+        if (Paina1.start == true)
         {
             tulos = tulos + 1;
             laskuri.text = tulos.ToString();

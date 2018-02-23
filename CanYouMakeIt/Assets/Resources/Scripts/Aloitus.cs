@@ -16,7 +16,7 @@ public class Aloitus : MonoBehaviour {
 
     public void Launch()
     {
-        Application.LoadLevel("Scene");
+        Application.LoadLevel("Level_001");
     }
 	public void Exit()
 	{
