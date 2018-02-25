@@ -51,6 +51,7 @@
      <Compile Include="Assets\Resources\Scripts\ColorLerp.cs" />
      <Compile Include="Assets\Resources\Scripts\Counter.cs" />
      <Compile Include="Assets\Resources\Scripts\Finish.cs" />
+     <Compile Include="Assets\Resources\Scripts\Kolikke.cs" />
      <Compile Include="Assets\Resources\Scripts\Kosketus.cs" />
      <Compile Include="Assets\Resources\Scripts\LevelEditor.cs" />
      <Compile Include="Assets\Resources\Scripts\MoveScript.cs" />
