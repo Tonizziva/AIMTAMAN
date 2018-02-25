@@ -1,9 +1,15 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Resources\Scripts\LevelEditor.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="C:\Users\Toni\Documents\MusicPlayer\Index.html">
     <Files>
-      <File FileName="Assets\Resources\Scripts\LevelEditor.cs" Line="25" Column="4" />
-      <File FileName="Assets\Resources\Scripts\Paina1.cs" Line="55" Column="16" />
+      <File FileName="Assets\Resources\Scripts\LevelEditor.cs" Line="1" Column="1" />
+      <File FileName="Assets\Resources\Scripts\Paina1.cs" Line="75" Column="28" />
+      <File FileName="Assets\Resources\Scripts\Osuma.cs" Line="1" Column="1" />
+      <File FileName="Assets\Resources\Scripts\Counter.cs" Line="1" Column="1" />
+      <File FileName="Assets\Resources\Scripts\Aloitus.cs" Line="1" Column="1" />
+      <File FileName="Assets\Resources\Scripts\MoveScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Resources\Scripts\Finish.cs" Line="1" Column="1" />
+      <File FileName="C:\Users\Toni\Documents\MusicPlayer\Index.html" Line="20" Column="50" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
